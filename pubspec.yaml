@@ -1,5 +1,5 @@
-name: eut
-description: "taba 5th team 4 E-Ut Flutter project"
+name: taba_proj
+description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.2.1 <4.0.0'
+  sdk: '>=3.4.0 <4.0.0'
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -30,12 +30,27 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  expandable: ^5.0.1  # 버전은 최신 버전으로 변경 가능
+  flutter_svg: ^2.0.10+1
+  fl_chart: ^0.35.0
+  table_calendar: ^3.0.6
+
+
+#  dependencies:
+#    flutter:
+#      sdk: flutter
+#    fl_chart: ^0.36.0
+#    expansion_tile_card: ^2.0.0
+#    flutter_svg: ^1.0.3
+#    table_calendar: ^3.0.1
 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
-  get: ^4.6.6
+  cupertino_icons: ^1.0.6
+  expansion_tile_card: ^3.0.0
+  expandable_page_view: ^1.0.17
+
 
 dev_dependencies:
   flutter_test:
@@ -46,7 +61,7 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^2.0.0
+  flutter_lints: ^3.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -58,6 +73,11 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets:
+    - assets/img/anxious.svg
+    - assets/img/happy.svg
+    - assets/img/worried.svg
+    - assets/img/icon.svg
 
   # To add assets to your application, add an assets section, like this:
   # assets:
