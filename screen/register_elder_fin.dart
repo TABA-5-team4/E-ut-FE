@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:taba_app_proj/screen/home_screen.dart';
-import 'package:taba_app_proj/screen/register_fin.dart';
+import 'package:eut/seunghyeon/screen/home_screen.dart';
+import 'package:eut/seunghyeon/screen/register_fin.dart';
 
 
 class MyApp2 extends StatelessWidget {

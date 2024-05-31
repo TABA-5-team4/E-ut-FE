@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:taba_app_proj/screen/register_fam_1.dart';
-import 'package:taba_app_proj/screen/register_fin.dart';
+import 'package:eut/seunghyeon/screen/register_fam_1.dart';
+import 'package:eut/seunghyeon/screen/register_fin.dart';
 
 class MyApp3 extends StatelessWidget {
   @override

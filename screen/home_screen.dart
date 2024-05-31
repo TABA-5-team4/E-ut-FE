@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:taba_app_proj/screen/register_elder_fin.dart';
-import 'package:taba_app_proj/screen/register_fam_1.dart';
-import 'package:taba_app_proj/screen/register_fam_fin.dart';
+import 'package:eut/seunghyeon/screen/register_elder_fin.dart';
+import 'package:eut/seunghyeon/screen/register_fam_1.dart';
+import 'package:eut/seunghyeon/screen/register_fam_fin.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});

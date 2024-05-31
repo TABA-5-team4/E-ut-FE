@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:provider/provider.dart';
 import 'package:simple_ripple_animation/simple_ripple_animation.dart';
-import 'package:taba_app_proj/chatbot/greeting.dart';
+import 'package:eut/seunghyeon/chatbot/greeting.dart';
 
 
 // RippleAnimation(
